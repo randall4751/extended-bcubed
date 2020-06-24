@@ -6,7 +6,7 @@ This code contains a vectorized (numpy) version of the extended version of the B
 
 The unit tests include examples of the simple case (items belong to one and only one category) from the reference paper's Figure 11.
 
-    Note - It appears that 3 of the 4 example example pairs in the Figure have incorrect results.
+    Note - It appears that 3 of the 4 example pairs in the Figure have incorrect results.
 
 The unit tests also include the multiplicity examples from Figures 16 through 21.
 
