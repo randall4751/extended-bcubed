@@ -56,11 +56,6 @@ def b_cubed_simple(clusters, categories):
     category_matrix = np.array([category_inverse_map]*n_items).reshape(n_items,n_items)
     category_column = category_inverse_map.reshape(n_items,1)
     L = category_matrix == category_column
-
-    # print(C)
-    # print('---------')
-    # print(L)
-    # print('==========')
     #
     #   Step 3 - compute precision and recall
     #
